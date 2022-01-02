@@ -3,9 +3,10 @@
 <head>
     <style>
         body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
         /* Add a black background color to the top navigation */
         .topnav {
             background-color: #333;
@@ -20,7 +21,8 @@
             text-decoration: none;
             font-size: 17px;
         }
-        .align-right{
+
+        .align-right {
             float: right;
         }
 
@@ -35,6 +37,17 @@
             background-color: #04AA6D;
             color: white;
         }
+
+        .main_container {
+            background-image: url('welcome_background.jpg');
+            width: 70%;
+            height: 100%;
+            margin: 0 auto;
+        }
+
+        body{
+            background-color: blue;
+        }
     </style>
 </head>
 
@@ -42,12 +55,14 @@
 <body>
     <div class="main_container">
 
-        <div class="topnav">
-            <a class="align-right" href="">Login</a>
-            <a class="align-right" href="">Register</a>
-            <a class="align-right" href="">Register</a>
-        </div>
 
+        <div class="topnav">
+            <div style="padding: 0 130px;">
+                <a class="align-right" href="">Login</a>
+                <a class="align-right" href="">Register</a>
+            </div>
+        </div>
+            
 
 
     </div>
