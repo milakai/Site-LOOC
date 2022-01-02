@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 
 <head>
-    <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css" />
+    
     <link rel="stylesheet" href="main.css">
+
+    <?php include("bootstrapinclude.html");?>
+
 </head>
 
 
@@ -61,7 +64,6 @@
         })
     </script>
 
-    <script src="jquery-3.6.0.min.js"></script>
-    <script src="node_modules\@popperjs\core\dist\umd\popper.min.js"></script>
-    <script src="node_modules\bootstrap\dist\js\bootstrap.min.js"></script>
+<?php include("jsinclude.html");?>
+
 </body>
