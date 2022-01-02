@@ -21,13 +21,9 @@
         </h2>
 
 
-
-
-
         <div class="register_box">
             <div class="login_input_container">
-                <input class="login_input" placeholder="username" type="text" id="username" name="username"><br><br>
-
+                <input class="form-control" placeholder="username" type="text" id="username" name="username"><br><br>
             </div>
 
             <div class="input-group mb-3">
@@ -54,12 +50,15 @@
         let btn = document.querySelector('#btn');
         let input = document.querySelector('#password');
 
-        btn.addEventListener('click', () => {
-            if (input.type === "password") {
-                input.type = "text"
-            } else {
+        btn.addEventListener('mouseover', () => {
+            
+            input.type = "text"
+        
+        })
+        btn.addEventListener('mouseout', () => {
+            
                 input.type = "password"
-            }
+            
         })
     </script>
 
