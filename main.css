@@ -30,8 +30,12 @@
   padding: 20px;
   width: 50%;
   padding: 12px 20px;
+  margin: auto;
 }
 
 .title {
+  text-align: center;
+}
+.description_txt{
   text-align: center;
 }
