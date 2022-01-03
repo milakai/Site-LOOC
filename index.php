@@ -16,6 +16,9 @@
         <h1 class="title" style="text-align: center;">
             LOGIN
         </h1>
+        <h6>
+            <a href="welcome.php"> Return to menu(debug) </a>
+        </h6>
         <h2 class="description_txt">
             Please enter your student name or email and password:
         </h2>
