@@ -66,7 +66,7 @@
                 <input placeholder="Confirm your password" type="password" id="confPassword" class="form-control"> <br><br>
             </div>
             <div class="input-group-append">
-                    <button class="btn" id="btn" type="button">Submit</button>
+                    <input class="submit" type="submit" value="Submit">
             </div>
 
         </div>
